@@ -1,0 +1,14 @@
+// CSS libraries
+@import '~bootstrap/dist/css/bootstrap.css';
+
+// Local modules
+@import 'colors';
+
+body {
+  h1 {
+    color: $slate;
+    font-weight: 300;
+    letter-spacing: 0.666em;
+    margin-bottom: 1em;
+  }
+}
