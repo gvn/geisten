@@ -31,7 +31,7 @@ export default class SpectrumAnalyzer extends React.Component {
       let dataArray = new Uint8Array(bufferLength);
 
       source.connect(analyser); // connect mic to analyser
-      source.connect(audioCtx.destination); // connect mic to "speaker"
+      // source.connect(audioCtx.destination); // connect mic to "speaker"
 
       let loop = () => {
         requestAnimationFrame(loop);
